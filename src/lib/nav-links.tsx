@@ -8,12 +8,12 @@ export const navLinks = [
     label: "About Me",
   },
   {
-    href: "/#projects",
-    label: "Projects",
-  },
-  {
     href: "/#skills",
     label: "Skills",
+  },
+  {
+    href: "/#projects",
+    label: "Projects",
   },
   {
     href: "/#experience",
