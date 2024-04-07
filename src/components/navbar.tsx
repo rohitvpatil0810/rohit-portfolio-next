@@ -6,7 +6,7 @@ type Props = {};
 
 function Navbar({}: Props) {
   return (
-    <GlassMorph className="py-4 px-4 rounded-xl border border-gray-500 flex justify-between fixed left-4 sm:left-6 md:left-8 lg:left-10 xl:left-20 2xl:left-40 right-4 sm:right-6 md:right-8 lg:right-10 xl:right-20 2xl:right-40 z-50">
+    <GlassMorph className="py-4 px-4 rounded-xl border border-gray-500 flex justify-between fixed left-4 sm:left-6 md:left-8 lg:left-10 xl:left-20 2xl:left-40 right-4 sm:right-6 md:right-8 lg:right-10 xl:right-20 2xl:right-40 top-4 z-50">
       <h1 className="text-2xl my-auto font-bold">
         <span className="text-light-green">&lt;R</span>ohit Patil
         <span className="text-light-green">/&gt;</span>
