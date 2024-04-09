@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import Button from "./ui/button";
 
 type Props = {};
 
@@ -15,6 +16,9 @@ function Hero({}: Props) {
           A Passionate Software Engineer and Computer Engineering Student from
           India 🇮🇳
         </h3>
+        <a href="#projects">
+          <Button className="my-6" text="See My Projects"></Button>
+        </a>
       </div>
       <Image
         src="/developer1.svg"
