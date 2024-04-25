@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1698" data-name="Rectangle 1698" width="32" height="32" transform="translate(-19142 -8759)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="CSS" transform="translate(19141.999 8759)" clip-path="url(#clip-path)">
+    <g id="layer1" transform="translate(-19149.438 -8776.272)">
+      <g id="g3013" transform="translate(7.438 17.273)">
+        <path id="polygon2989" d="M27.335,6.289,25.27,29.426,15.986,32,6.728,29.43,4.665,6.289Z" fill="#264de4"/>
+        <path id="polygon2991" d="M23.5,27.953,25.267,8.181H16V30.033Z" fill="#2965f1"/>
+        <path id="polygon2993" d="M9.394,16.764,9.649,19.6H16V16.764Z" fill="#ebebeb"/>
+        <path id="polygon2995" d="M16,11.019H8.883l.258,2.838H16Z" fill="#ebebeb"/>
+        <path id="polygon2997" d="M16,27.087V24.135l-.012,0-3.161-.854-.2-2.264H9.776l.4,4.456,5.814,1.614Z" fill="#ebebeb"/>
+        <path id="path2999" d="M10,0h3.438V1.438h-2V2.875h2V4.313H10Z"/>
+        <path id="path3001" d="M14.125,0h3.438V1.25h-2V1.5h2V4.375H14.125V3.063h2v-.25h-2Z"/>
+        <path id="path3003" d="M18.25,0h3.438V1.25h-2V1.5h2V4.375H18.25V3.063h2v-.25h-2Z"/>
+        <path id="polygon3005" d="M19.485,19.6l-.329,3.681-3.165.854V27.09l5.818-1.613L21.851,25l.667-7.472.069-.762.512-5.745H15.99v2.838h4l-.258,2.906H15.99V19.6Z" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

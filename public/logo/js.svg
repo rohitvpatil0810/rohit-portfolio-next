@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Javascript" width="32" height="32" transform="translate(-19094 -8759)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Javascript-2" data-name="Javascript" transform="translate(19093.999 8759)" clip-path="url(#clip-path)">
+    <g id="Unofficial_JavaScript_logo_2" transform="translate(-19094 -8759)">
+      <rect id="Rectangle_1699" data-name="Rectangle 1699" width="32" height="32" fill="#f7df1e"/>
+      <path id="Path_6053" data-name="Path 6053" d="M21.5,25a3.275,3.275,0,0,0,2.966,1.826c1.246,0,2.042-.623,2.042-1.483,0-1.031-.818-1.4-2.189-2l-.752-.323c-2.17-.924-3.611-2.083-3.611-4.531,0-2.255,1.718-3.972,4.4-3.972a4.445,4.445,0,0,1,4.277,2.408l-2.342,1.5a2.045,2.045,0,0,0-1.935-1.289,1.308,1.308,0,0,0-1.439,1.289c0,.9.559,1.267,1.849,1.826l.752.322c2.555,1.1,4,2.213,4,4.724,0,2.707-2.127,4.19-4.983,4.19a5.777,5.777,0,0,1-5.48-3.075Zm-10.622.261c.472.838.9,1.547,1.935,1.547.988,0,1.611-.387,1.611-1.89V14.693h3.007V24.958c0,3.114-1.826,4.531-4.49,4.531a4.668,4.668,0,0,1-4.511-2.747Z"/>
+    </g>
+  </g>
+</svg>

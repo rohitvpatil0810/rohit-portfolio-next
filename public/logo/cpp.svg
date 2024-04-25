@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1703" data-name="Rectangle 1703" width="32" height="32" transform="translate(-18894 -8759)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="C_" data-name="C++" transform="translate(18893.999 8759)" clip-path="url(#clip-path)">
+    <g id="ISO_C__Logo" data-name="ISO_C++_Logo" transform="translate(-18892.219 -8759)">
+      <path id="Path_6146" data-name="Path 6146" d="M28.074,24a2.52,2.52,0,0,0,.362-1.213V9.213A2.519,2.519,0,0,0,28.075,8L14.218,16Z" fill="#00599c"/>
+      <path id="Path_6147" data-name="Path 6147" d="M15.449,31.707,27.2,24.92a2.519,2.519,0,0,0,.87-.92L14.218,16,.362,24a2.519,2.519,0,0,0,.87.92l11.756,6.787A2.731,2.731,0,0,0,15.449,31.707Z" fill="#004482"/>
+      <path id="Path_6148" data-name="Path 6148" d="M28.075,8a2.521,2.521,0,0,0-.87-.92L15.449.293a2.731,2.731,0,0,0-2.463,0L1.231,7.08A2.732,2.732,0,0,0,0,9.213V22.787A2.519,2.519,0,0,0,.362,24l13.856-8Z" fill="#659ad2"/>
+      <g id="Group_5309" data-name="Group 5309">
+        <path id="Path_6149" data-name="Path 6149" d="M14.218,25.479a9.479,9.479,0,1,1,8.209-14.221l-4.1,2.374a4.739,4.739,0,1,0,0,4.737l4.1,2.374A9.513,9.513,0,0,1,14.218,25.479Z" fill="#fff"/>
+      </g>
+      <g id="Group_5310" data-name="Group 5310">
+        <path id="Path_6150" data-name="Path 6150" d="M23.7,15.473H22.644V14.42H21.591v1.053H20.537v1.053h1.053V17.58h1.053V16.527H23.7Z" fill="#fff"/>
+      </g>
+      <g id="Group_5311" data-name="Group 5311">
+        <path id="Path_6151" data-name="Path 6151" d="M27.646,15.473H26.593V14.42H25.54v1.053H24.487v1.053H25.54V17.58h1.053V16.527h1.053Z" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
