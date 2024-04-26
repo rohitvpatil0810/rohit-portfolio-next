@@ -21,3 +21,9 @@
 ::-webkit-scrollbar-thumb:hover {
     background: #9ef38d;
 }
+
+@layer utilities {
+    .paused{
+        animation-play-state: paused;
+    }
+}
