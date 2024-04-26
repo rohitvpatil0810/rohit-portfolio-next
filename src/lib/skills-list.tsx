@@ -40,8 +40,8 @@ export const skillsList = [
     name: "Next.js",
     logo: (
       <Image
-        className="filter brightness-200"
-        src="/logo/nextjs.png"
+        className=""
+        src="/logo/nextjs2.png"
         alt="Next.js"
         width={width}
         height={height}
@@ -64,7 +64,7 @@ export const skillsList = [
     logo: (
       <Image
         className="filter brightness-200"
-        src="/logo/expressjs.png"
+        src="/logo/expressjs1.png"
         alt="Express.js"
         width={width}
         height={height}
@@ -98,10 +98,10 @@ export const skillsList = [
     logo: (
       <Image
         className="filter brightness-200"
-        src="/logo/kafka.png"
+        src="/logo/kafka1.png"
         alt="Kafka"
-        width={35}
-        height={35}
+        width={width}
+        height={height}
       />
     ),
   },
@@ -115,7 +115,7 @@ export const skillsList = [
     name: "Docker",
     logo: (
       <Image
-        src="/logo/docker.svg"
+        src="/logo/docker1.webp"
         alt="Docker"
         width={width}
         height={height}
@@ -130,11 +130,10 @@ export const skillsList = [
     name: "GitHub",
     logo: (
       <Image
-        className="rounded-full bg-white"
-        src="/logo/github.png"
+        src="/logo/github1.png"
         alt="GitHub"
-        width={width}
-        height={height}
+        width={width + 10}
+        height={height + 10}
       />
     ),
   },
@@ -168,7 +167,12 @@ export const skillsList = [
   {
     name: "MySQL",
     logo: (
-      <Image src="/logo/mysql.svg" alt="MySQL" width={width} height={height} />
+      <Image
+        src="/logo/mysql1.png"
+        alt="MySQL"
+        width={width + 10}
+        height={height + 10}
+      />
     ),
   },
   {
@@ -232,7 +236,7 @@ export const skillsList = [
   {
     name: "Dart",
     logo: (
-      <Image src="/logo/dart.png" alt="Dart" width={width} height={height} />
+      <Image src="/logo/dart1.svg" alt="Dart" width={width} height={height} />
     ),
   },
   {
