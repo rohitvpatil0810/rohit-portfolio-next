@@ -7,7 +7,7 @@ const inter = Lexend_Deca({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Rohit Patil | Software Engineer",
   description:
-    "Hello, I'm Rohit Patil, a computer engineering student currently studying at Pune Institute of Computer Technology. As @rohitvpatil0810, my passion lies in software development, and my portfolio reflects a blend of creativity and technical expertise. Projects like 'Notes pRO' and 'News Ninja' showcase my dynamic skill set, while the MERN stack-powered Public Health Record Management System reflects my commitment to secure and seamless experiences. As I pursue my degree, I am eager to explore opportunities in software engineering. Feel free to delve into my portfolio and join me in this exciting journey of code, design, and innovation! 🚀 #ComputerEngineeringStudent",
+    "Hello, I&apos;m Rohit Patil, a computer engineering student currently studying at Pune Institute of Computer Technology. As @rohitvpatil0810, my passion lies in software development, and my portfolio reflects a blend of creativity and technical expertise. Projects like &apos;Notes pRO&apos; and &apos;News Ninja&apos; showcase my dynamic skill set, while the MERN stack-powered Public Health Record Management System reflects my commitment to secure and seamless experiences. As I pursue my degree, I am eager to explore opportunities in software engineering. Feel free to delve into my portfolio and join me in this exciting journey of code, design, and innovation! 🚀 #ComputerEngineeringStudent",
 };
 
 export default function RootLayout({

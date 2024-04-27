@@ -27,16 +27,17 @@ function AboutMe({}: Props) {
       <div className="w-3/5">
         <SectionHeader>About Me</SectionHeader>
         <h1 className="py-8 text-4xl text-light-green font-bold">
-          Building Tomorrow's Solutions, <br /> Learning Today's Lessons 🛠️
+          Building Tomorrow&apos;s Solutions, <br /> Learning Today&apos;s
+          Lessons 🛠️
         </h1>
         <h2 className="font-semibold text-lg text-justify">
-          Hey there! 👋 I'm Rohit Patil, a computer engineering student at Pune
-          Institute of Computer Technology. 💻 I'm all about building the
-          engines behind apps and websites. I love working on the backend,
-          making sure everything runs smoothly and efficiently. Whether it's
-          setting up databases, creating APIs, or solving tricky problems, I'm
-          here to make sure things work like a charm. Let's team up and bring
-          our ideas to life! 🚀
+          Hey there! 👋 I&apos;m Rohit Patil, a computer engineering student at
+          Pune Institute of Computer Technology. 💻 I&apos;m all about building
+          the engines behind apps and websites. I love working on the backend,
+          making sure everything runs smoothly and efficiently. Whether
+          it&apos;s setting up databases, creating APIs, or solving tricky
+          problems, I&apos;m here to make sure things work like a charm.
+          Let&apos;s team up and bring our ideas to life! 🚀
         </h2>
       </div>
     </div>
