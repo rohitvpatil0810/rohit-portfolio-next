@@ -1,3 +1,4 @@
+import Image from "next/image";
 import LightGreenGlassMorph from "./ui/light-green-glass-morph";
 import SectionHeader from "./ui/section-header";
 import SocialIcon from "./ui/social-icon";
@@ -7,11 +8,13 @@ type Props = {};
 function AboutMe({}: Props) {
   return (
     <div id="about-me" className="flex p-10 bg-light-green bg-opacity-5">
-      <div className="w-2/5 flex flex-col justify-center items-center py-6">
-        <img
+      <div className="w-2/5 flex flex-col justify-center items-center">
+        <Image
           src="/rohit.svg"
           alt="Rohit Patil"
           className="rounded-full w-72 h-72 object-center object-cover"
+          width={288}
+          height={288}
         />
         <LightGreenGlassMorph className="rounded-xl w-64 py-1 flex justify-center items-center -translate-y-12">
           {socialLinks.map((link) => (
