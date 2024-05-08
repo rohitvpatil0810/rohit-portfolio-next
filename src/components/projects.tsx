@@ -12,7 +12,7 @@ function Projects({}: Props) {
       className="flex flex-col items-center justify-center p-10"
     >
       <SectionHeader>Projects</SectionHeader>
-      <div className="flex flex-col items-center py-10">
+      <div className="flex flex-col items-center py-10 space-y-16">
         {projectsList.map((project) => (
           <ProjectItem key={project.name} project={project} />
         ))}

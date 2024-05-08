@@ -35,17 +35,17 @@ function ProjectItem({
   },
 }: Props) {
   return (
-    <div className="font-light h-fit rounded-md text-sm flex w-2/3 group">
+    <div className="font-light h-fit rounded-md text-sm flex w-2/3 group justify-center items-center">
       {cover_image ? (
         <Image
           src={cover_image}
           alt={name}
           width={1000}
           height={1000}
-          className="w-96 h-64 object-cover object-center rounded-md"
+          className="w-5/12 h-full object-cover object-center rounded-md"
         />
       ) : null}
-      <div className="flex flex-col justify-center px-6 py-2 ">
+      <div className="flex flex-col justify-center px-6 py-2">
         <HoverUnderlineText
           className="text-light-green"
           underlineColor="bg-light-green"

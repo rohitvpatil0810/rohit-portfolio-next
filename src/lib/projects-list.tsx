@@ -16,4 +16,20 @@ export const projectsList = [
       "MongoDB",
     ],
   },
+  {
+    cover_image: "/projects-cover/expense-tracker.png",
+    name: "Expense Tracker",
+    description:
+      "Expense Tracker streamlines expense management with a Node.js and Express.js backend, MongoDB for data storage, and React.js for frontend interaction. Tailwind CSS ensures a sleek design, while Chart.js facilitates clear expense visualization for effortless tracking.",
+    live_preview: "https://expense-tracker-bugslicers.onrender.com/",
+    github_link: "https://github.com/Bug-Slicers/expensetracker",
+    technologies: [
+      "React.Js",
+      "Tailwind CSS",
+      "Node.Js",
+      "Express.Js",
+      "MongoDB",
+      "Chart.Js",
+    ],
+  },
 ];
