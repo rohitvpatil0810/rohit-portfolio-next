@@ -33,7 +33,7 @@ function AboutMe({}: Props) {
           Building Tomorrow&apos;s Solutions, <br /> Learning Today&apos;s
           Lessons 🛠️
         </h1>
-        <h2 className="font-semibold text-lg text-justify">
+        <h2 className="font-semibold text-lg">
           Hey there! 👋 I&apos;m Rohit Patil, a computer engineering student at
           Pune Institute of Computer Technology. 💻 I&apos;m all about building
           the engines behind apps and websites. I love working on the backend,
