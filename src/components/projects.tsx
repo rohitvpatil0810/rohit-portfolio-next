@@ -8,11 +8,11 @@ type Props = {};
 function Projects({}: Props) {
   return (
     <div
-      id="about-me"
+      id="projects"
       className="flex flex-col items-center justify-center p-10"
     >
       <SectionHeader>Projects</SectionHeader>
-      <div className="py-10">
+      <div className="flex flex-col items-center py-10">
         {projectsList.map((project) => (
           <ProjectItem key={project.name} project={project} />
         ))}
