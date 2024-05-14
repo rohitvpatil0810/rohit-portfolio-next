@@ -35,7 +35,7 @@ function ProjectItem({
   },
 }: Props) {
   return (
-    <div className="font-light h-fit rounded-md text-sm flex w-2/3 group justify-center items-center">
+    <div className="font-light h-fit rounded-md text-sm flex w-2/3 group justify-center items-center hover:cursor-pointer">
       {cover_image ? (
         <Image
           src={cover_image}

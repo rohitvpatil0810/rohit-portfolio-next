@@ -32,4 +32,21 @@ export const projectsList = [
       "Chart.Js",
     ],
   },
+  {
+    cover_image: "/projects-cover/log-ingestor-and-query-interface.png",
+    name: "Log Ingestor and Query Interface",
+    description:
+      "Log Ingestor and Query Interface is a powerful tool designed for efficient log data management. It allows seamless log ingestion over HTTP and provides a user-friendly query interface with full-text search and various field filters.",
+    github_link:
+      "https://github.com/rohitvpatil0810/log-ingestor-and-query-interface",
+    technologies: [
+      "React.Js",
+      "Tailwind CSS",
+      "Node.Js",
+      "Express.Js",
+      "MongoDB",
+      "Kafka",
+      "Redis",
+    ],
+  },
 ];
