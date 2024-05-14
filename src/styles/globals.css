@@ -29,7 +29,7 @@
 }
 
 @layer components {
-    .bounce-up {
-        @apply transition-transform duration-300 transform-gpu hover:-translate-y-2;
+    .bounce-side {
+        @apply transition-transform duration-300 transform-gpu hover:-translate-x-2;
     }
 }
