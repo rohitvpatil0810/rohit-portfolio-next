@@ -27,3 +27,9 @@
         animation-play-state: paused;
     }
 }
+
+@layer components {
+    .bounce-up {
+        @apply transition-transform duration-300 transform-gpu hover:-translate-y-2;
+    }
+}
