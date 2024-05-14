@@ -49,4 +49,19 @@ export const projectsList = [
       "Redis",
     ],
   },
+  {
+    cover_image: "/projects-cover/notes-pRO.png",
+    name: "Notes pRO",
+    description:
+      "Notes pRO is the note-taking app. The feature of the app is that Notes are saved on Cloud. So, you can access your notes from anywhere. You only need a Account on the Notes pRO. And you can create your notes and access them on the go.",
+    live_preview: "https://notes-pro.onrender.com/",
+    github_link: "https://github.com/rohitvpatil0810/notes-pRO",
+    technologies: [
+      "React.Js",
+      "Tailwind CSS",
+      "Node.Js",
+      "Express.Js",
+      "MongoDB",
+    ],
+  },
 ];
