@@ -33,3 +33,7 @@
         @apply transition-transform duration-300 transform-gpu hover:-translate-x-2;
     }
 }
+
+html {
+    scroll-behavior: smooth;
+}
