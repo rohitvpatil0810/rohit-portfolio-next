@@ -13,7 +13,7 @@ function Projects({}: Props) {
     >
       <SectionHeader>Projects</SectionHeader>
       <h1 className="py-8 text-4xl text-gray-200 font-bold">
-        My Arsenal 🛠️, Ever-Expanding and Always Exciting!
+        My Builds, Full of Learnings and Adventures 🎢
       </h1>
       <div className="flex flex-col items-center py-10 space-y-16">
         {projectsList.slice(0, 3).map((project) => (
