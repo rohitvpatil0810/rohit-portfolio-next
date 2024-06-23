@@ -20,7 +20,6 @@ function Projects({}: Props) {
           <ProjectItem key={project.name} project={project} />
         ))}
       </div>
-      <div></div>
     </div>
   );
 }

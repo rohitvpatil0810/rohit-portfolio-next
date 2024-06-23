@@ -45,7 +45,7 @@ function ProjectItem({
           className="w-5/12 h-full object-cover object-center rounded-md"
         />
       ) : null}
-      <div className="flex flex-col justify-center px-6 py-2">
+      <div className="w-7/12 flex flex-col justify-center px-6 py-2">
         <HoverUnderlineText
           className="text-light-green"
           underlineColor="bg-light-green"
