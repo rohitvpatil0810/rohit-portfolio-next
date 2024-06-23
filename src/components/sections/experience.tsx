@@ -1,7 +1,7 @@
 import React from "react";
-import SectionHeader from "./ui/section-header";
+import SectionHeader from "../ui/section-header";
 import experienceList from "@/lib/experience-list";
-import ExperienceItem from "./ui/experience-item";
+import ExperienceItem from "../ui/experience-item";
 
 type Props = {};
 

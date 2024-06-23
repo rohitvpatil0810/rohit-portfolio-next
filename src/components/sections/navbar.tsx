@@ -1,7 +1,7 @@
 import { navLinks } from "@/lib/nav-links";
-import Button from "./ui/button";
-import GlassMorph from "./ui/glass-morph";
-import NavbarLink from "./ui/navbar-link";
+import Button from "../ui/button";
+import GlassMorph from "../ui/glass-morph";
+import NavbarLink from "../ui/navbar-link";
 type Props = {};
 
 function Navbar({}: Props) {

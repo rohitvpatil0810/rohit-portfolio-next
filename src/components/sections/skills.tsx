@@ -1,6 +1,6 @@
 import { skillsList } from "@/lib/skills-list";
-import SectionHeader from "./ui/section-header";
-import SkillIcon from "./ui/skill-icon";
+import SectionHeader from "../ui/section-header";
+import SkillIcon from "../ui/skill-icon";
 
 type Props = {};
 

@@ -1,7 +1,7 @@
 import React from "react";
-import SectionHeader from "./ui/section-header";
+import SectionHeader from "../ui/section-header";
 import { projectsList } from "@/lib/projects-list";
-import ProjectItem from "./ui/project-item";
+import ProjectItem from "../ui/project-item";
 
 type Props = {};
 

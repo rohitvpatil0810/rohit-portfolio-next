@@ -1,7 +1,7 @@
 import Image from "next/image";
-import LightGreenGlassMorph from "./ui/light-green-glass-morph";
-import SectionHeader from "./ui/section-header";
-import SocialIcon from "./ui/social-icon";
+import LightGreenGlassMorph from "../ui/light-green-glass-morph";
+import SectionHeader from "../ui/section-header";
+import SocialIcon from "../ui/social-icon";
 import { socialLinks } from "@/lib/social-links";
 type Props = {};
 
