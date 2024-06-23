@@ -1,4 +1,5 @@
 import AboutMe from "@/components/sections/about-me";
+import Education from "@/components/sections/education";
 import Experience from "@/components/sections/experience";
 import Hero from "@/components/sections/hero";
 import Navbar from "@/components/sections/navbar";
@@ -14,6 +15,7 @@ export default function Home() {
       <Skills />
       <Projects />
       <Experience />
+      <Education />
     </>
   );
 }
