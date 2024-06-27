@@ -5,6 +5,7 @@ interface ButtonProps {
   children: React.ReactNode;
   className?: string;
   type?: "button" | "submit" | "reset";
+  disabled?: boolean;
 }
 
 const Button: React.FC<ButtonProps> = ({
@@ -12,6 +13,7 @@ const Button: React.FC<ButtonProps> = ({
   children,
   className,
   type,
+  disabled = false,
 }) => {
   return (
     <button
@@ -21,6 +23,7 @@ const Button: React.FC<ButtonProps> = ({
       )}
       onClick={onClick}
       type={type || "button"}
+      disabled={disabled}
     >
       {children}
     </button>
