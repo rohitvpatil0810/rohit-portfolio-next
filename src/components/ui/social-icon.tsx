@@ -4,20 +4,21 @@ type Props = {
   icon: React.ReactNode;
   sociallink: string;
   className?: string;
+  username?: string;
 };
 
-function SocialIcon({ icon, sociallink, className = "" }: Props) {
+function SocialIcon({ icon, sociallink, className = "", username }: Props) {
   return (
     <a
       href={sociallink}
       target="_blank"
       rel="noopener noreferrer"
-      className={cn(
-        "p-1 flex w-fit rounded-full border-2 bounce-up",
-        className
-      )}
+      className="flex items-center space-x-1 bounce-up"
     >
-      {icon}
+      <div className={cn("p-1 flex w-fit rounded-full border-2", className)}>
+        {icon}
+      </div>
+      {username && <h1 className="text-base">{username}</h1>}
     </a>
   );
 }
