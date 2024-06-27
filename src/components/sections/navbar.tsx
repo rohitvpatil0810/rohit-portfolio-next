@@ -20,7 +20,7 @@ function Navbar({}: Props) {
         href="https://drive.google.com/file/d/1RIylVko-_jGaG6_YU6sYHh9xO6qY8BW6/view"
         target="__blank"
       >
-        <Button text="Resume" />
+        <Button>Resume</Button>
       </a>
     </GlassMorph>
   );
