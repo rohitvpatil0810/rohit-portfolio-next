@@ -5,7 +5,13 @@ import {
   IconBrandX,
 } from "@tabler/icons-react";
 
-export const socialLinks = [
+export interface SocialLink {
+  icon: JSX.Element;
+  sociallink: string;
+  username: string;
+}
+
+export const socialLinks: SocialLink[] = [
   {
     icon: <IconBrandGithub />,
     sociallink: "https://github.com/rohitvpatil0810/",
