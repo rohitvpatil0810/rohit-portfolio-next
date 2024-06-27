@@ -17,7 +17,7 @@ function Hero({}: Props) {
           India 🇮🇳
         </h3>
         <a href="#projects">
-          <Button className="my-6" text="See My Projects"></Button>
+          <Button className="my-6">See My Projects</Button>
         </a>
       </div>
       <Image
