@@ -1,4 +1,5 @@
 import AboutMe from "@/components/sections/about-me";
+import Contact from "@/components/sections/contact";
 import Education from "@/components/sections/education";
 import Experience from "@/components/sections/experience";
 import Hero from "@/components/sections/hero";
@@ -16,6 +17,7 @@ export default function Home() {
       <Projects />
       <Experience />
       <Education />
+      <Contact />
     </>
   );
 }
