@@ -9,7 +9,7 @@ const Experience = (props: Props) => {
   return (
     <div
       id="experience"
-      className="w-full flex flex-col justify-center items-center"
+      className="w-full flex flex-col justify-center items-center scroll-mt-28"
     >
       <SectionHeader>Experience</SectionHeader>
       <h1 className="py-8 text-4xl text-gray-200 font-bold">

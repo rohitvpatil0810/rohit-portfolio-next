@@ -7,7 +7,7 @@ type Props = {};
 
 function AboutMe({}: Props) {
   return (
-    <div id="about-me" className="flex p-10 bg-light-green bg-opacity-5">
+    <div className="flex p-10 bg-light-green bg-opacity-5">
       <div className="w-2/5 flex flex-col justify-center items-center">
         <Image
           src="/rohit.svg"

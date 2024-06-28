@@ -8,7 +8,7 @@ function Skills({}: Props) {
   return (
     <div
       id="skills"
-      className="flex flex-col justify-center items-center py-10"
+      className="flex flex-col justify-center items-center py-10 scroll-mt-20"
     >
       <SectionHeader>Skills</SectionHeader>
       <h1 className="py-8 text-4xl text-gray-200 font-bold">

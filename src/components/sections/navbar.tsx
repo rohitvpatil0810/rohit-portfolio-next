@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 type Props = {};
 
 function Navbar({}: Props) {
-  let [activeSection, setActiveSection] = useState("home");
+  let [activeSection, setActiveSection] = useState("about-me");
 
   useEffect(() => {
     let sections = navLinks.map((link) => document.getElementById(link.href));

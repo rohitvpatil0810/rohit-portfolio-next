@@ -9,7 +9,7 @@ function Projects({}: Props) {
   return (
     <div
       id="projects"
-      className="flex flex-col items-center justify-center p-10"
+      className="flex flex-col items-center justify-center p-10 scroll-mt-20"
     >
       <SectionHeader>Projects</SectionHeader>
       <h1 className="py-8 text-4xl text-gray-200 font-bold">

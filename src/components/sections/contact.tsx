@@ -11,7 +11,7 @@ function Contact({}: Props) {
   return (
     <div
       id="contact"
-      className="w-full py-10 flex flex-col justify-center items-center"
+      className="w-full py-10 flex flex-col justify-center items-center scroll-mt-10"
     >
       <SectionHeader>Contact</SectionHeader>
       <h1 className="py-8 text-4xl text-gray-200 font-bold">Get in Touch 📬</h1>
