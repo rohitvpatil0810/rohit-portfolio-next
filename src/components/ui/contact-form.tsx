@@ -27,7 +27,7 @@ const ContactForm = (props: Props) => {
 
     if (result?.success) {
       toast.success("Thank you for reaching out.");
-      //   reset();
+      reset();
       return;
     }
     if (result?.error) {
