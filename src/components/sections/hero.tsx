@@ -6,7 +6,7 @@ type Props = {};
 
 function Hero({}: Props) {
   return (
-    <div className="flex justify-between items-center h-screen">
+    <div id="home" className="flex justify-between items-center h-screen">
       <div className="w-1/2">
         <h2 className="text-5xl font-semibold py-1">Hi, I&apos;m</h2>
         <h1 className="text-8xl font-bold py-1 text-light-green">
