@@ -10,7 +10,7 @@ type Props = {};
 function Contact({}: Props) {
   return (
     <div
-      id="experience"
+      id="contact"
       className="w-full py-10 flex flex-col justify-center items-center"
     >
       <SectionHeader>Contact</SectionHeader>

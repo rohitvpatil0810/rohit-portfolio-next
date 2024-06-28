@@ -8,7 +8,7 @@ type Props = {};
 function Education({}: Props) {
   return (
     <div
-      id="experience"
+      id="education"
       className="w-full py-10 flex flex-col justify-center items-center"
     >
       <SectionHeader>Education</SectionHeader>
