@@ -4,6 +4,7 @@ import Button from "../ui/button";
 import GlassMorph from "../ui/glass-morph";
 import NavbarLink from "../ui/navbar-link";
 import { useEffect, useState } from "react";
+import aboutMe from "@/lib/about-me";
 type Props = {};
 
 function Navbar({}: Props) {
@@ -53,10 +54,7 @@ function Navbar({}: Props) {
           />
         ))}
       </div>
-      <a
-        href="https://drive.google.com/file/d/1RIylVko-_jGaG6_YU6sYHh9xO6qY8BW6/view"
-        target="__blank"
-      >
+      <a href={aboutMe.resumeLink} target="__blank">
         <Button>Resume</Button>
       </a>
     </GlassMorph>

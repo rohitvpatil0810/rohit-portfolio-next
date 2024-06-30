@@ -3,6 +3,7 @@ import LightGreenGlassMorph from "../ui/light-green-glass-morph";
 import SectionHeader from "../ui/section-header";
 import SocialIcon from "../ui/social-icon";
 import { socialLinks } from "@/lib/social-links";
+import aboutMe from "@/lib/about-me";
 type Props = {};
 
 function AboutMe({}: Props) {
@@ -33,15 +34,7 @@ function AboutMe({}: Props) {
           Building Tomorrow&apos;s Solutions, <br /> Learning Today&apos;s
           Lessons 🛠️
         </h1>
-        <h2 className="font-semibold text-lg">
-          Hey there! 👋 I&apos;m Rohit Patil, a computer engineering student at
-          Pune Institute of Computer Technology. 💻 I&apos;m all about building
-          the engines behind apps and websites. I love working on the backend,
-          making sure everything runs smoothly and efficiently. Whether
-          it&apos;s setting up databases, creating APIs, or solving tricky
-          problems, I&apos;m here to make sure things work like a charm.
-          Let&apos;s team up and bring our ideas to life! 🚀
-        </h2>
+        <h2 className="font-semibold text-lg">{aboutMe.aboutMe}</h2>
       </div>
     </div>
   );

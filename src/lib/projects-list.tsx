@@ -1,3 +1,12 @@
+export interface Project {
+  cover_image?: string;
+  name: string;
+  description: string;
+  live_preview?: string;
+  github_link: string;
+  technologies: string[];
+}
+
 export const projectsList = [
   {
     cover_image: "/projects-cover/phrms.png",

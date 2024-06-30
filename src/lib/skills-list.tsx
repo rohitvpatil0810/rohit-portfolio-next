@@ -2,7 +2,13 @@ import Image from "next/image";
 
 const height = 50;
 const width = 50;
-export const skillsList = [
+
+export interface Skill {
+  name: string;
+  logo: JSX.Element;
+}
+
+export const skillsList: Skill[] = [
   {
     name: "JavaScript",
     logo: (
