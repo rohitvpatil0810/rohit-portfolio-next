@@ -9,14 +9,14 @@ type Props = {
 
 const EducationItem = ({ education }: Props) => {
   return (
-    <div className="py-4 w-5/12 flex group">
-      <div className="w-1/5">
+    <div className="py-4 tab:w-8/12 lg:w-8/12 flex flex-col tab:flex-row group">
+      <div className="tab:w-1/5">
         <h3 className="text-lg text-gray-400 font-semibold py-2">
           {education.duration}
         </h3>
       </div>
-      <div className="w-4/5">
-        <h1 className="text-xl text-gray-200 font-bold flex flex-wrap items-center space-x-1">
+      <div className="tab:w-4/5">
+        <h1 className="text-xl text-gray-200 font-bold flex flex-wrap md:items-center space-x-1">
           <HoverUnderlineText
             className="group-hover:text-light-green"
             underlineColor="bg-green-400"
@@ -29,7 +29,7 @@ const EducationItem = ({ education }: Props) => {
           </div>
         </h1>
         <h2 className="text-gray-300 pt-1 flex justify-start items-center space-x-1">
-          <span className="whitespace-nowrap mr-2">
+          <span className="mr-2">
             {education.degree}
             {education.major ? `, ${education.major}` : null}
           </span>

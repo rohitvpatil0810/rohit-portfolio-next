@@ -12,15 +12,17 @@ function Education({}: Props) {
       className="w-full py-10 flex flex-col justify-center items-center scroll-mt-20"
     >
       <SectionHeader>Education</SectionHeader>
-      <h1 className="py-8 text-4xl text-gray-200 font-bold">
+      <h1 className="py-4 md:py-8 text-2xl sm:text-3xl md:text-4xl text-gray-200 font-bold text-center">
         My Academic Journey 📚
       </h1>
-      {educationList.map((education) => (
-        <EducationItem
-          key={education.school + education.degree}
-          education={education}
-        />
-      ))}
+      <div className="w-full flex flex-col items-start tab:items-center">
+        {educationList.map((education) => (
+          <EducationItem
+            key={education.school + education.degree}
+            education={education}
+          />
+        ))}
+      </div>
     </div>
   );
 }
