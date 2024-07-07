@@ -5,10 +5,13 @@ import GlassMorph from "../ui/glass-morph";
 import NavbarLink from "../ui/navbar-link";
 import { useEffect, useState } from "react";
 import aboutMe from "@/lib/about-me";
+import { IconMenu2, IconMenuDeep, IconX } from "@tabler/icons-react";
+import { cn } from "@/lib/utils";
 type Props = {};
 
 function Navbar({}: Props) {
-  let [activeSection, setActiveSection] = useState("about-me");
+  const [activeSection, setActiveSection] = useState("about-me");
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   useEffect(() => {
     let sections = navLinks.map((link) => document.getElementById(link.href));
@@ -39,25 +42,95 @@ function Navbar({}: Props) {
   }, []);
 
   return (
-    <GlassMorph className="py-4 px-4 rounded-xl border border-gray-500 flex justify-between fixed left-4 sm:left-6 md:left-8 lg:left-10 xl:left-20 2xl:left-40 right-4 sm:right-6 md:right-8 lg:right-10 xl:right-20 2xl:right-40 top-4 z-50">
-      <h1 className="text-2xl my-auto font-bold">
-        <span className="text-light-green">&lt;R</span>ohit Patil
-        <span className="text-light-green">/&gt;</span>
-      </h1>
-      <div className="flex flex-between">
-        {navLinks.map((link) => (
-          <NavbarLink
-            key={link.href}
-            label={link.label}
-            href={link.href}
-            activeSection={activeSection}
-          />
-        ))}
-      </div>
-      <a href={aboutMe.resumeLink} target="__blank">
-        <Button>Resume</Button>
-      </a>
-    </GlassMorph>
+    <nav
+      className={cn("fixed top-0 right-0 left-0 z-50", {
+        "top-0 bottom-10": isMenuOpen,
+      })}
+    >
+      <GlassMorph
+        className={cn(
+          "my-4 py-4 px-4 rounded-xl border border-gray-500 flex justify-between items-center mx-4 sm:mx-6 md:mx-8 lg:mx-10 xl:mx-20 2xl:mx-40",
+          {
+            "flex-col h-full": isMenuOpen,
+            "flex-row": !isMenuOpen,
+          }
+        )}
+      >
+        {/* Name and close button */}
+        <div
+          className={cn(
+            "flex tab:flex-none w-full tab:w-fit justify-between items-center"
+          )}
+        >
+          <h1 className="w-fit text-xl sm:text-2xl my-auto font-bold">
+            <span className="text-light-green">&lt;R</span>ohit Patil
+            <span className="text-light-green">/&gt;</span>
+          </h1>
+          {isMenuOpen && (
+            <button
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+              className="tab:hidden text-6xl text-light-green"
+            >
+              <IconX size={28} />
+            </button>
+          )}
+        </div>
+
+        {/* Nav links on big screen */}
+        <div className="hidden tab:flex flex-between">
+          {navLinks.map((link) => (
+            <NavbarLink
+              key={link.href}
+              label={link.label}
+              href={link.href}
+              activeSection={activeSection}
+            />
+          ))}
+        </div>
+        <a
+          className="hidden tab:block"
+          href={aboutMe.resumeLink}
+          target="__blank"
+        >
+          <Button>Resume</Button>
+        </a>
+
+        {/* Menu bar button in small screen */}
+        <div
+          className={cn("tab:hidden", {
+            hidden: isMenuOpen,
+          })}
+        >
+          <button
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+            className="text-2xl text-light-green"
+          >
+            {!isMenuOpen ? <IconMenuDeep size={28} /> : undefined}
+          </button>
+        </div>
+
+        {/* Nav links on mobile screen */}
+        {isMenuOpen && (
+          <>
+            <div className="flex h-full flex-col justify-evenly items-center text-lg">
+              {navLinks.map((link) => (
+                <button onClick={() => setIsMenuOpen(false)}>
+                  <NavbarLink
+                    key={link.href}
+                    label={link.label}
+                    href={link.href}
+                    activeSection={activeSection}
+                  />
+                </button>
+              ))}
+            </div>
+            <a href={aboutMe.resumeLink} target="__blank">
+              <Button>Resume</Button>
+            </a>
+          </>
+        )}
+      </GlassMorph>
+    </nav>
   );
 }
 
