@@ -33,7 +33,7 @@ function AboutMe({}: Props) {
       </div>
       <div className="flex flex-col items-center lg:block justify-center lg:w-3/5">
         <SectionHeader className="">About Me</SectionHeader>
-        <h1 className="w-full py-8 text-2xl sm:text-3xl md:text-4xl text-light-green font-bold">
+        <h1 className="w-full py-8 text-2xl sm:text-3xl md:text-4xl text-light-green font-bold text-center lg:text-left">
           Building Tomorrow&apos;s Solutions, <br /> Learning Today&apos;s
           Lessons 🛠️
         </h1>
