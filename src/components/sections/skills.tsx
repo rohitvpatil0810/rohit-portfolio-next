@@ -14,7 +14,7 @@ function Skills({}: Props) {
       <h1 className="py-8 text-2xl sm:text-3xl md:text-4xl text-gray-200 font-bold">
         My Arsenal 🛠️, Ever-Expanding and Always Exciting!
       </h1>
-      <div className="py-6 flex w-full overflow-hidden space-x-12 group">
+      <div className="py-6 flex w-full overflow-hidden md:space-x-12 group">
         <div className="animate-loop-scroll flex md:space-x-12 group-hover:paused">
           {skillsList.map((skill) => (
             <SkillIcon key={skill.name} skillName={skill.name}>
@@ -26,6 +26,7 @@ function Skills({}: Props) {
           <div
             className="animate-loop-scroll flex md:space-x-12 group-hover:paused"
             aria-hidden="true"
+            key={index}
           >
             {skillsList.map((skill) => (
               <SkillIcon key={skill.name} skillName={skill.name}>
