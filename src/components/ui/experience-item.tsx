@@ -15,13 +15,13 @@ type Props = {
 
 function ExperienceItem({ experience }: Props) {
   return (
-    <div className="py-4 w-3/5 flex group">
-      <div className="w-1/4">
+    <div className="py-4 lg:w-3/5 flex flex-col md:flex-row group">
+      <div className="md:w-1/4">
         <h3 className="text-lg text-gray-400 font-semibold py-1">
           {experience.date}
         </h3>
       </div>
-      <div className="w-3/4">
+      <div className="md:w-3/4">
         <h1 className="text-xl text-gray-200 font-bold flex flex-wrap items-center space-x-1">
           <span>{experience.title}</span> <IconPointFilled size={16} />
           <a

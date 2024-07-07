@@ -12,7 +12,7 @@ const Experience = (props: Props) => {
       className="w-full flex flex-col justify-center items-center scroll-mt-28"
     >
       <SectionHeader>Experience</SectionHeader>
-      <h1 className="py-8 text-4xl text-gray-200 font-bold">
+      <h1 className="py-4 md:py-8 text-2xl sm:text-3xl md:text-4xl text-gray-200 font-bold text-center">
         Career Highlights 💼
       </h1>
       {experienceList.map((experience) => (
