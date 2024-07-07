@@ -10,7 +10,7 @@ function AboutMe({}: Props) {
   return (
     <div
       id="about-me"
-      className="flex flex-col lg:flex-row p-5 lg:p-10 bg-light-green bg-opacity-5"
+      className="flex flex-col lg:flex-row p-5 lg:p-10 bg-light-green bg-opacity-5 scroll-mt-20"
     >
       <div className="lg:w-2/5 flex flex-col justify-center items-center">
         <Image

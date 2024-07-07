@@ -13,6 +13,14 @@ function Navbar({}: Props) {
   const [activeSection, setActiveSection] = useState("about-me");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+    setIsMenuOpen(false);
+  };
+
   useEffect(() => {
     let sections = navLinks.map((link) => document.getElementById(link.href));
 
@@ -62,10 +70,12 @@ function Navbar({}: Props) {
             "flex tab:flex-none w-full tab:w-fit justify-between items-center"
           )}
         >
-          <h1 className="w-fit text-xl sm:text-2xl my-auto font-bold">
-            <span className="text-light-green">&lt;R</span>ohit Patil
-            <span className="text-light-green">/&gt;</span>
-          </h1>
+          <button onClick={scrollToTop}>
+            <h1 className="w-fit text-xl sm:text-2xl my-auto font-bold">
+              <span className="text-light-green">&lt;R</span>ohit Patil
+              <span className="text-light-green">/&gt;</span>
+            </h1>
+          </button>
           {isMenuOpen && (
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
