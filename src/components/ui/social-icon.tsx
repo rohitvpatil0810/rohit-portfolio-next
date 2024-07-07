@@ -18,7 +18,7 @@ function SocialIcon({ icon, sociallink, className = "", username }: Props) {
       <div className={cn("p-1 flex w-fit rounded-full border-2", className)}>
         {icon}
       </div>
-      {username && <h1 className="text-base">{username}</h1>}
+      {username && <h1 className="hidden md:block text-base">{username}</h1>}
     </a>
   );
 }
