@@ -1,3 +1,5 @@
+import { cn } from "@/lib/utils";
+
 interface NavbarLinkProps {
   href: string;
   label: string;
@@ -14,9 +16,10 @@ const NavbarLink: React.FC<NavbarLinkProps> = ({
   return (
     <a
       href={`/#${href}`}
-      className={`my-auto mx-3 text-white hover:bounce-up ${
-        isActive ? "font-semibold" : "font-light"
-      }`}
+      className={cn("my-auto mx-3 text-white hover:bounce-up", {
+        "font-semibold": isActive,
+        "font-light": !isActive,
+      })}
     >
       {label}
     </a>
