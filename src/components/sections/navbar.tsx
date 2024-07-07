@@ -114,9 +114,8 @@ function Navbar({}: Props) {
           <>
             <div className="flex h-full flex-col justify-evenly items-center text-lg">
               {navLinks.map((link) => (
-                <button onClick={() => setIsMenuOpen(false)}>
+                <button key={link.href} onClick={() => setIsMenuOpen(false)}>
                   <NavbarLink
-                    key={link.href}
                     label={link.label}
                     href={link.href}
                     activeSection={activeSection}
