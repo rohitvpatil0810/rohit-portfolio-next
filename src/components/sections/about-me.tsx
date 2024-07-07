@@ -8,8 +8,11 @@ type Props = {};
 
 function AboutMe({}: Props) {
   return (
-    <div className="flex p-10 bg-light-green bg-opacity-5">
-      <div className="w-2/5 flex flex-col justify-center items-center">
+    <div
+      id="about-me"
+      className="flex flex-col lg:flex-row p-5 lg:p-10 bg-light-green bg-opacity-5"
+    >
+      <div className="lg:w-2/5 flex flex-col justify-center items-center">
         <Image
           src="/rohit.svg"
           alt="Rohit Patil"
@@ -28,13 +31,13 @@ function AboutMe({}: Props) {
           ))}
         </LightGreenGlassMorph>
       </div>
-      <div className="w-3/5">
-        <SectionHeader>About Me</SectionHeader>
-        <h1 className="py-8 text-4xl text-light-green font-bold">
+      <div className="flex flex-col items-center lg:block justify-center lg:w-3/5">
+        <SectionHeader className="">About Me</SectionHeader>
+        <h1 className="w-full py-8 text-2xl sm:text-3xl md:text-4xl text-light-green font-bold">
           Building Tomorrow&apos;s Solutions, <br /> Learning Today&apos;s
           Lessons 🛠️
         </h1>
-        <h2 className="font-semibold text-lg">{aboutMe.aboutMe}</h2>
+        <h2 className="font-semibold text-md md:text-lg">{aboutMe.aboutMe}</h2>
       </div>
     </div>
   );
