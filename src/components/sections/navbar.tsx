@@ -49,7 +49,7 @@ function Navbar({}: Props) {
     >
       <GlassMorph
         className={cn(
-          "my-4 py-4 px-4 rounded-xl border border-gray-500 flex justify-between items-center mx-4 sm:mx-6 md:mx-8 lg:mx-10 xl:mx-20 2xl:mx-40",
+          "my-4 py-2 sm:py-4 px-4 rounded-xl border border-gray-500 flex justify-between items-center mx-4 sm:mx-6 md:mx-8 lg:mx-10 xl:mx-20 2xl:mx-40",
           {
             "flex-col h-full": isMenuOpen,
             "flex-row": !isMenuOpen,
