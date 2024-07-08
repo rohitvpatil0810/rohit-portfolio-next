@@ -9,7 +9,7 @@ type Props = {
 
 const EducationItem = ({ education }: Props) => {
   return (
-    <div className="py-4 tab:w-8/12 lg:w-8/12 flex flex-col tab:flex-row group">
+    <div className="py-4 tab:w-8/12 lg:w-7/12 flex flex-col tab:flex-row group">
       <div className="tab:w-1/5">
         <h3 className="text-lg text-gray-400 font-semibold py-2">
           {education.duration}
