@@ -18,6 +18,9 @@ export const metaData: Metadata = {
   verification: {
     google: process.env.GOOGLE_VERIFICATION_CODE,
   },
+  metadataBase: new URL(
+    `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}/`
+  ),
   openGraph: {
     type: "website",
     title: pageDetails.title,
