@@ -41,7 +41,7 @@ const ContactForm = (props: Props) => {
       className="flex flex-col items-start space-y-2 text-base"
       onSubmit={handleSubmit(onSubmit)}
     >
-      {/* <Toaster
+      <Toaster
         position="bottom-right"
         toastOptions={{
           success: {
@@ -59,7 +59,7 @@ const ContactForm = (props: Props) => {
             },
           },
         }}
-      /> */}
+      />
       <div className="flex flex-col items-start space-y-2">
         <label className="text-gray-200 uppercase" htmlFor="name">
           Name
