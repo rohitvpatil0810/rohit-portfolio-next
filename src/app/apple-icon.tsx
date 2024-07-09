@@ -1,7 +1,4 @@
-import { Lexend_Deca } from "next/font/google";
 import { ImageResponse } from "next/og";
-
-const inter = Lexend_Deca({ subsets: ["latin"] });
 
 // Route segment config
 export const runtime = "edge";
@@ -22,7 +19,6 @@ export default function AppleIcon() {
         style={{
           fontSize: 28,
           fontWeight: 900,
-          fontFamily: inter.style.fontFamily,
           backgroundColor: "#191919",
           color: "#ACF39D",
           width: "100%",

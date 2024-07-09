@@ -35,7 +35,7 @@ function ProjectItem({
   },
 }: Props) {
   return (
-    <div className="font-normal h-fit rounded-md text-sm flex flex-col md:flex-row w-fit lg:w-8/12 group justify-center items-center hover:cursor-pointer bounce-up md:bounce-side">
+    <div className="font-normal h-fit rounded-md text-sm flex flex-col md:flex-row w-fit lg:w-8/12 group justify-center items-center hover:cursor-pointer bounce-up">
       {cover_image ? (
         <Image
           src={cover_image}

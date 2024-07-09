@@ -1,7 +1,4 @@
-import { Lexend_Deca } from "next/font/google";
 import { ImageResponse } from "next/og";
-
-const inter = Lexend_Deca({ subsets: ["latin"] });
 
 // Route segment config
 export const runtime = "edge";
@@ -14,7 +11,7 @@ export const size = {
 export const contentType = "image/png";
 
 // Image generation
-export default function Icon() {
+export default async function Icon() {
   return new ImageResponse(
     (
       // ImageResponse JSX element
@@ -22,7 +19,6 @@ export default function Icon() {
         style={{
           fontSize: 28,
           fontWeight: 900,
-          fontFamily: inter.style.fontFamily,
           backgroundColor: "#191919",
           color: "#ACF39D",
           width: "100%",
