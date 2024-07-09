@@ -7,7 +7,7 @@ export interface Project {
   technologies: string[];
 }
 
-export const projectsList = [
+export const projectsList: Project[] = [
   {
     cover_image: "/projects-cover/phrms.png",
     name: "Public Health Record Management System",
@@ -72,5 +72,73 @@ export const projectsList = [
       "Express.Js",
       "MongoDB",
     ],
+  },
+  {
+    cover_image: "/projects-cover/rohit-portfolio-mail-server.png",
+    name: "Rohit Portfolio Email Server",
+    description:
+      "This project is a Node.js and Express.js server designed to handle email notifications for Rohit's portfolio website. It includes features such as sending email notifications and ensuring secure communication through API key protection. The server leverages Nodemailer for email handling and uses Handlebars for templating, providing a robust and efficient solution for managing portfolio interactions.",
+    github_link: "https://github.com/rohitvpatil0810/portfolio-mail-server",
+    technologies: [
+      "Node.Js",
+      "Express.Js",
+      "Nodemailer",
+      "JavaScript",
+      "Handlebars",
+    ],
+  },
+  {
+    cover_image: "/projects-cover/weather-app.png",
+    name: "Weather App",
+    description:
+      "This weather web application built with Next.js and TailwindCSS. It provides real-time weather information for a specified location. The weather data is fetched from weatherAPI.com.",
+    live_preview: "https://weather-app-ashy-two.vercel.app/",
+    github_link: "https://github.com/rohitvpatil0810/weather-app",
+    technologies: ["Next.Js", "Tailwind CSS", "JavaScript"],
+  },
+  {
+    cover_image: "/projects-cover/meme-centre.png",
+    name: "Meme Centre",
+    description:
+      "Meme Centre is an API-based web application built with Next.js and TailwindCSS. This app allows users to fetch and view memes from Reddit, providing a fun and engaging way to browse the latest memes.",
+    live_preview: "https://meme-centre-by-annonymous-ninja1.vercel.app/",
+    github_link: "https://github.com/rohitvpatil0810/memeCentre",
+    technologies: ["Next.js", "Tailwind CSS", "JavaScript"],
+  },
+  {
+    cover_image: "/projects-cover/news-ninja.png",
+    name: "News Ninja",
+    description:
+      "News Ninja is a news app made using News API for practicing React.Js. For building the components, Bootstrap Components are used. News Ninja is built in React.js with React Router for various types of news like general, sports, business, technology, etc.",
+    github_link: "https://github.com/rohitvpatil0810/newsNinja",
+    technologies: ["React.Js", "Bootstrap"],
+  },
+  {
+    cover_image: "/projects-cover/online-mcq-practice-platform.png",
+    name: "Online MCQ Practice Platform",
+    description:
+      "Online MCQ Practice Platform is a Web App developed for practicing MCQs. HTML, CSS, and JavaScript are used to build the basic structure, styling, and logic of the Web App. The main feature of the Web App is its responsive design.",
+    live_preview: "https://online-mcq-practice-platform.web.app/",
+    github_link:
+      "https://github.com/rohitvpatil0810/Online-MCQ-Practice-Platform",
+    technologies: ["HTML", "CSS", "JavaScript"],
+  },
+  {
+    cover_image: "/projects-cover/text-transform.png",
+    name: "Text Transform",
+    description:
+      "Text Transform is a simple React App for manipulating text. Components in Text Transform are made using Bootstrap Components. Text-Transform is used for estimating the number of characters and words, estimated reading time, removing extra space, etc.",
+    live_preview: "https://text-transform-using-react.web.app/",
+    github_link: "https://github.com/rohitvpatil0810/textTransform",
+    technologies: ["React.Js", "Bootstrap", "JavaScript"],
+  },
+  {
+    cover_image: "/projects-cover/ninjas-todo.png",
+    name: "Ninjas To-Do",
+    description:
+      "Ninjas To-Do is a web app made using Flask. For building the components, Bootstrap Components are used. SQLalchemy is used for structuring the data of the web app.",
+    live_preview: "https://ninjas-todo.onrender.com/",
+    github_link: "https://github.com/rohitvpatil0810/ninjas-todo",
+    technologies: ["Flask", "Python", "SQLalchemy", "Bootstrap"],
   },
 ];
