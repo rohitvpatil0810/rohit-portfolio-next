@@ -14,14 +14,14 @@ function ProjectsPage({}: Props) {
   return (
     <>
       <Projects />
-      <div className="flex justify-center items-center">
+      {/* <div className="flex justify-center items-center">
         <span className="mr-2">For more projects, visit my</span>
         <SocialIcon
           icon={github.icon}
           sociallink={github.sociallink}
           username={github.username}
         />
-      </div>
+      </div> */}
       <Footer />
     </>
   );
