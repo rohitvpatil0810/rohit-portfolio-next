@@ -103,7 +103,7 @@ export const projectsList: Project[] = [
       "Meme Centre is an API-based web application built with Next.js and TailwindCSS. This app allows users to fetch and view memes from Reddit, providing a fun and engaging way to browse the latest memes.",
     live_preview: "https://meme-centre-by-annonymous-ninja.vercel.app/",
     github_link: "https://github.com/rohitvpatil0810/memeCentre",
-    technologies: ["Next.js", "Tailwind CSS", "JavaScript"],
+    technologies: ["Next.Js", "Tailwind CSS", "JavaScript"],
   },
   {
     cover_image: "/projects-cover/news-ninja.png",
