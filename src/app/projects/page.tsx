@@ -1,6 +1,9 @@
+"use client";
+import Filter from "@/components/ui/filter";
 import ProjectItem from "@/components/ui/project-item";
 import { projectsList } from "@/lib/projects-list";
 import { IconArrowLeft } from "@tabler/icons-react";
+import { useState } from "react";
 
 type Props = {};
 
@@ -10,6 +13,7 @@ function ProjectsPage({}: Props) {
     .flat();
 
   const uniqueTechnologies = Array.from(new Set(technologies));
+  const [activeFilters, setActiveFilters] = useState<string[]>([]);
 
   return (
     <>
@@ -19,12 +23,23 @@ function ProjectsPage({}: Props) {
             <IconArrowLeft className="mr-2" />
             <h1 className="text-xl sm:text-2xl">Projects</h1>
           </a>
+          <Filter
+            activeFilters={activeFilters}
+            filters={uniqueTechnologies}
+            setActiveFilters={setActiveFilters}
+          />
         </div>
       </nav>
       <div className="mt-10 sm:mt-10 flex flex-col items-center py-10 space-y-10 md:space-y-16">
-        {projectsList.map((project) => (
-          <ProjectItem key={project.name} project={project} />
-        ))}
+        {projectsList.map((project) =>
+          activeFilters.length == 0 ? (
+            <ProjectItem key={project.name} project={project} />
+          ) : (
+            project.technologies.some((tech) =>
+              activeFilters.includes(tech)
+            ) && <ProjectItem key={project.name} project={project} />
+          )
+        )}
       </div>
     </>
   );
