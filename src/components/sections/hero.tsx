@@ -1,5 +1,4 @@
 import Image from "next/image";
-import React from "react";
 import Button from "../ui/button";
 import aboutMe from "@/lib/about-me";
 
@@ -7,7 +6,7 @@ type Props = {};
 
 function Hero({}: Props) {
   return (
-    <div className="mt-10 lg:mt-0 flex flex-col lg:flex-row justify-center items-center h-screen">
+    <div className="my-20 md:my-32 lg:my-0 flex flex-col lg:flex-row justify-center items-center lg:py-20 lg:h-screen">
       <div className="lg:w-1/2">
         <h2 className="text-2xl md:text-4xl lg:text-5xl font-semibold py-1">
           Hi, I&apos;m
