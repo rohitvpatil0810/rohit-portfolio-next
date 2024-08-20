@@ -59,6 +59,25 @@ export const projectsList: Project[] = [
     ],
   },
   {
+    cover_image: "/projects-cover/task-manager-ts.png",
+    name: "Task Manager",
+    description:
+      "Task Manager is a versatile task management app designed for efficient workflow management. It offers Google authentication, email/password sign-in, and a smooth drag-and-drop interface, making it easy to organize and prioritize tasks. The app's responsive design ensures a seamless experience across devices.",
+    live_preview: "https://task-manager-ts.onrender.com/",
+    github_link: "https://github.com/rohitvpatil0810/task-manager-ts",
+    technologies: [
+      "Typescript",
+      "Vite",
+      "React.Js",
+      "Shadcn UI",
+      "Pragmatic Drag and Drop",
+      "Node.Js",
+      "Express.Js",
+      "MongoDB",
+      "Prisma",
+    ],
+  },
+  {
     cover_image: "/projects-cover/notes-pRO.png",
     name: "Notes pRO",
     description:
