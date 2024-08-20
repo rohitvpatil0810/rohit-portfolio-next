@@ -75,6 +75,8 @@ export const projectsList: Project[] = [
       "Express.Js",
       "MongoDB",
       "Prisma",
+      "Docker",
+      "Github Actions",
     ],
   },
   {
