@@ -11,6 +11,16 @@ export type Experience = {
 
 const experienceList: Experience[] = [
   {
+    title: "Graduate Trainee - SWE",
+    company: "UBS",
+    companyLink: "https://ubs.com/",
+    experienceLetterLink: null,
+    date: "Aug 2024 - Present",
+    location: "Pune, India",
+    description: [],
+    skills: [],
+  },
+  {
     title: "Software Engineer Intern",
     company: "Quoppo LLC",
     companyLink: "https://quoppo.com/",
