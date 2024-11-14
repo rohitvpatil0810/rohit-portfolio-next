@@ -24,7 +24,7 @@ export default function RootLayout({
     <html lang="en">
       <GoogleAnalytics />
       <body
-        className={`${inter.className} bg-eerie-black px-4 sm:px-6 md:px-8 lg:px-10 xl:px-20 2xl:px-40 text-white`}
+        className={`${inter.className} bg-charcoal-black px-4 sm:px-6 md:px-8 lg:px-10 xl:px-20 2xl:px-40 text-white`}
       >
         {children}
       </body>

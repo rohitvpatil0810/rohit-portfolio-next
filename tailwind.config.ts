@@ -26,7 +26,7 @@ const config: Config = {
         },
       },
       colors: {
-        "eerie-black": "#191919",
+        "charcoal-black": "#121212",
         "light-green": "#ACF39D",
         "orange-web": "#F9A620",
       },

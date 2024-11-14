@@ -29,7 +29,7 @@ const Filter = ({ filters, activeFilters, setActiveFilters }: Props) => {
           <IconFilter size={16} className="mr-2" />
           <span>Filter</span>
           {activeFilters.length > 0 && (
-            <span className="ml-2 bg-white text-eerie-black text-sm font-semibold p-0.5 rounded-full w-6 h-fit">
+            <span className="ml-2 bg-white text-charcoal-black text-sm font-semibold p-0.5 rounded-full w-6 h-fit">
               {activeFilters.length}
             </span>
           )}
@@ -38,7 +38,7 @@ const Filter = ({ filters, activeFilters, setActiveFilters }: Props) => {
       </button>
       <GlassMorph
         className={cn(
-          "bg-eerie-black/20 px-2 pt-1 pb-2 rounded-lg border border-gray-600 fixed top-20 z-[60] w-11/12 sm:w-2/3 lg:w-1/3 flex flex-wrap right-4 sm:right-6 md:right-8 lg:right-10 xl:right-20 2xl:right-40",
+          "bg-charcoal-black/50 px-2 pt-1 pb-2 rounded-lg border border-gray-600 fixed top-20 z-[60] w-11/12 sm:w-2/3 lg:w-1/3 flex flex-wrap right-4 sm:right-6 md:right-8 lg:right-10 xl:right-20 2xl:right-40",
           {
             "hidden ": !isOpen,
           }
