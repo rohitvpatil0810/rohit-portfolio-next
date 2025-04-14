@@ -18,7 +18,7 @@ function Projects({}: Props) {
         My Builds, Full of Learnings and Adventures 🎢
       </h1>
       <div className="flex flex-col items-center pt-10 space-y-10 md:space-y-16">
-        {projectsList.slice(0, 3).map((project) => (
+        {projectsList.slice(0, 4).map((project) => (
           <ProjectItem key={project.name} project={project} />
         ))}
       </div>
