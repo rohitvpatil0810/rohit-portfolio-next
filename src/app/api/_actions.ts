@@ -8,7 +8,7 @@ const sendEmailNotification = async (data: IFormInput) => {
 
   try {
     const response = await axios.post(
-      apiUrl + "/email/send-notification",
+      apiUrl!,
       data,
       {
         headers: {
