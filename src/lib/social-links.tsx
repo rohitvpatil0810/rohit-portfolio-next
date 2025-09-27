@@ -5,6 +5,8 @@ import {
   IconBrandX,
 } from "@tabler/icons-react";
 
+import type { JSX } from "react";
+
 export interface SocialLink {
   icon: JSX.Element;
   sociallink: string;
