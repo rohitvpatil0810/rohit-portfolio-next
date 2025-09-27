@@ -1,5 +1,7 @@
 import Image from "next/image";
 
+import type { JSX } from "react";
+
 const height = 50;
 const width = 50;
 
