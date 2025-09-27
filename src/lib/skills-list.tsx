@@ -78,6 +78,28 @@ export const skillsList: Skill[] = [
     ),
   },
   {
+    name: "Java",
+    logo: (
+      <Image
+        src="/logo/java.svg"
+        alt="Java"
+        width={width + 5}
+        height={height + 5}
+      />
+    ),
+  },
+  {
+    name: "Spring Boot",
+    logo: (
+      <Image
+        src="/logo/spring-boot.svg"
+        alt="Spring Boot"
+        width={width}
+        height={height}
+      />
+    ),
+  },
+  {
     name: "MongoDB",
     logo: (
       <Image
@@ -237,6 +259,12 @@ export const skillsList: Skill[] = [
         width={width}
         height={height}
       />
+    ),
+  },
+  {
+    name: "Flask",
+    logo: (
+      <Image src="/logo/flask.svg" alt="Flask" width={width} height={height} />
     ),
   },
   {
