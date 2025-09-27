@@ -1,19 +1,25 @@
-"use client";
-import { usePathname } from "next/navigation";
+import { cn } from "@/lib/utils";
+
 interface NavbarLinkProps {
   href: string;
   label: string;
+  activeSection: string;
 }
 
-const NavbarLink: React.FC<NavbarLinkProps> = ({ href, label }) => {
-  const pathname = usePathname();
-  const isActive = pathname === href;
+const NavbarLink: React.FC<NavbarLinkProps> = ({
+  href,
+  label,
+  activeSection,
+}) => {
+  const isActive = activeSection === href;
+
   return (
     <a
-      href={href}
-      className={`my-auto mx-3 text-white ${
-        isActive ? "font-semibold" : "font-light"
-      }`}
+      href={`/#${href}`}
+      className={cn("my-auto mx-3 text-white hover:bounce-up", {
+        "font-semibold": isActive,
+        "font-light": !isActive,
+      })}
     >
       {label}
     </a>

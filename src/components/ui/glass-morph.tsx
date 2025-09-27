@@ -7,9 +7,7 @@ interface GlassMorphProps {
 
 const GlassMorph: React.FC<GlassMorphProps> = ({ children, className }) => {
   return (
-    <div
-      className={cn("bg-white/20 bg-opacity-25 backdrop-blur-lg", className)}
-    >
+    <div className={cn("bg-white/5 bg-opacity-25 backdrop-blur-lg", className)}>
       {children}
     </div>
   );

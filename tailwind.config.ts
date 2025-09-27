@@ -7,6 +7,14 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    screens: {
+      sm: "640px",
+      md: "768px",
+      tab: "910px",
+      lg: "1024px",
+      xl: "1280px",
+      "2xl": "1536px",
+    },
     extend: {
       animation: {
         "loop-scroll": "loop-scroll 50s linear infinite",
@@ -18,7 +26,7 @@ const config: Config = {
         },
       },
       colors: {
-        "eerie-black": "#191919",
+        "charcoal-black": "#121212",
         "light-green": "#ACF39D",
         "orange-web": "#F9A620",
       },

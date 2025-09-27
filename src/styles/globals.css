@@ -27,3 +27,22 @@
         animation-play-state: paused;
     }
 }
+
+@layer components {
+    .bounce-side {
+        @apply transition-transform duration-300 transform-gpu hover:-translate-x-2;
+    }
+
+    .bounce-up {
+        @apply transition-transform duration-300 transform-gpu hover:-translate-y-0.5;
+    }
+
+    .input-text {
+        @apply bg-light-green bg-opacity-20 backdrop-blur-lg border border-green-950 rounded-md w-80 py-2 px-2 focus:border focus:border-green-400 focus:outline-none;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
