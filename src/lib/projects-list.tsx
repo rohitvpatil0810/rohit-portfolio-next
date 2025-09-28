@@ -35,7 +35,7 @@ export const projectsList: Project[] = [
     cover_image: "/projects-cover/v2data.png",
     name: "V2data",
     description:
-      "V2data is a Spring Boot application that enables users to upload audio recordings, transcribe them using Cloudflare Workers AI, and generate structured notes. It features secure authentication and JWT-based authorization, email verification (via Mailgun SMTP relay), Cloudflare R2 object storage for audio files, and logging with Logback. The system is fully Dockerized with PostgreSQL and Flyway for database migrations.",
+      "V2data is a Spring Boot application that enables users to upload audio recordings, which are then processed asynchronously through Spring Boot’s event-driven architecture for transcription and structured notes generation. The transcription and AI-powered notes generation are handled by a dedicated service built on Cloudflare Workers AI. The application also provides secure authentication with JWT-based authorization, email verification (via Mailgun SMTP relay), Cloudflare R2 object storage for audio files, and structured logging with Logback. The system is fully Dockerized with PostgreSQL and Flyway for database migrations.",
     // live_preview: "",
     github_link: "https://github.com/rohitvpatil0810/v2data",
     technologies: [
@@ -50,7 +50,6 @@ export const projectsList: Project[] = [
       "Logback",
       "Docker",
       "Docker Compose",
-      "Postman",
     ],
   },
   {
