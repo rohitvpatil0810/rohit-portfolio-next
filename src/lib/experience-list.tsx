@@ -19,7 +19,7 @@ const experienceList: Experience[] = [
     location: "Pune, India",
     description: [
       "Engineered the frontend architecture and UI of a dashboard with React, Tailwind CSS, ag-Grid, Highcharts, and UWR widgets; integrated SSO authentication via Microsoft Identity (MSAL).",
-      "Developed Flask APIs with PostgreSQL for dashboard modules, including CRUD functionality and email alerts via smtplib.",
+      "Developed Flask APIs with PostgreSQL for dashboard modules, including CRUD functionality, email alerts via smtplib, and integrated Alembic for version-controlled database migrations, enhancing developer experience and reducing post-deployment issues.",
       "Migrated data source from legacy ITIL system to MongoDB aggregation pipeline via API integration.",
       "Automated Month-End Reporting with Python scripts featuring error handling, retry logic, and email alerts; saved approximately 150 minutes/month.",
       "Eliminated 100 minutes/month of manual work by automating file transfers via Axway Secure Transport.",
