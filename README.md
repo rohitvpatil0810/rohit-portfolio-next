@@ -4,7 +4,7 @@ This is the repository for my portfolio website, showcasing my projects, skills,
 
 ## 🌐 Live URL
 
-Check out the live version of the project - [rohitvpatil.vercel.app](https://rohitvpatil.vercel.app/).
+Check out the live version of the project - [www.rohitpatil.net](https://rohitpatil.net/).
 
 ## 🚀 Getting Started
 
