@@ -34,8 +34,12 @@ function AboutMe({}: Props) {
       <div className="flex flex-col items-center lg:block justify-center lg:w-3/5">
         <SectionHeader className="">About Me</SectionHeader>
         <h1 className="w-full py-8 text-2xl sm:text-3xl md:text-4xl text-light-green font-bold text-center lg:text-left">
-          Building Tomorrow&apos;s Solutions, <br /> Learning Today&apos;s
-          Lessons 🛠️
+          {aboutMe.aboutMeTagline.map((line, index) => (
+            <span key={index}>
+              {line}
+              {index < aboutMe.aboutMeTagline.length - 1 && <br />}
+            </span>
+          ))}
         </h1>
         <h2 className="font-semibold text-md md:text-lg">{aboutMe.aboutMe}</h2>
       </div>

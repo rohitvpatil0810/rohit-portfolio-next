@@ -1,9 +1,15 @@
+import { request } from "https";
+
 const aboutMe = {
   name: "Rohit Patil",
   heading:
-    "A Passionate Software Engineer and Computer Engineering Student from India 🇮🇳",
+    "Software Engineer building scalable systems and impactful products 🛠️",
+  aboutMeTagline: [
+    "Building scalable systems,",
+    "engineering software for production 🛠️",
+  ],
   aboutMe:
-    "Hey there! 👋 I'm Rohit Patil, a computer engineering student at Pune Institute of Computer Technology. 💻 I'm all about building the engines behind apps and websites. I love working on the backend, making sure everything runs smoothly and efficiently. Whether it's setting up databases, creating APIs, or solving tricky problems, I'm here to make sure things work like a charm. Let's team up and bring our ideas to life! 🚀",
+    "I'm Rohit Patil, a software engineer focused on building scalable, production ready systems. My work revolves around API design, database modeling, asynchronous processing, and backend services that power complex applications end-to-end. I've worked on production systems involving secure request handling, asynchronous workflows, data pipelines, automation, and cloud deployments. I care about clean architecture, observability, and writing maintainable code that performs reliably in real world environments.",
   resumeLink:
     "https://drive.google.com/file/d/1RIylVko-_jGaG6_YU6sYHh9xO6qY8BW6/view",
   portfolioRepo: "https://github.com/rohitvpatil0810/rohit-portfolio-next/",
