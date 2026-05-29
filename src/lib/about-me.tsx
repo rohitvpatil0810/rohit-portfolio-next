@@ -1,5 +1,3 @@
-import { request } from "https";
-
 const aboutMe = {
   name: "Rohit Patil",
   heading:
