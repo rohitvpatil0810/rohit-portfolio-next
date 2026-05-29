@@ -2,9 +2,7 @@ import aboutMe from "@/lib/about-me";
 import { IconBrandGithub } from "@tabler/icons-react";
 import React from "react";
 
-type Props = {};
-
-const Footer = (props: Props) => {
+const Footer = () => {
   return (
     <div>
       <footer className="text-white text-center py-4">

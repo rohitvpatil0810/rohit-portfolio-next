@@ -1,11 +1,4 @@
-import {
-  IconBrandGithub,
-  IconCode,
-  IconExternalLink,
-  IconExternalLinkOff,
-  IconLink,
-  IconPoint,
-} from "@tabler/icons-react";
+import { IconBrandGithub, IconExternalLink } from "@tabler/icons-react";
 import Image from "next/image";
 import React from "react";
 import Chip from "./chip";

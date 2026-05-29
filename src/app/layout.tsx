@@ -1,4 +1,4 @@
-import type { Metadata, Viewport } from "next";
+import type { Viewport } from "next";
 import { Lexend_Deca } from "next/font/google";
 import "../styles/globals.css";
 import { GoogleAnalytics } from "@next/third-parties/google";

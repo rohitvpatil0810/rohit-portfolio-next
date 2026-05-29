@@ -2,9 +2,7 @@ import Image from "next/image";
 import Button from "../ui/button";
 import aboutMe from "@/lib/about-me";
 
-type Props = {};
-
-function Hero({}: Props) {
+function Hero() {
   return (
     <div className="my-20 md:my-32 lg:my-0 flex flex-col lg:flex-row justify-center items-center lg:py-20 lg:h-screen">
       <div className="lg:w-1/2">

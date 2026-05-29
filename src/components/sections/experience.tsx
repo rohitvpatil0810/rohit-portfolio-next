@@ -3,9 +3,7 @@ import SectionHeader from "../ui/section-header";
 import experienceList from "@/lib/experience-list";
 import ExperienceItem from "../ui/experience-item";
 
-type Props = {};
-
-const Experience = (props: Props) => {
+const Experience = () => {
   return (
     <div
       id="experience"

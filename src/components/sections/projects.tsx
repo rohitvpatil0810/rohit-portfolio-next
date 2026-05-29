@@ -5,9 +5,7 @@ import ProjectItem from "../ui/project-item";
 import HoverUnderlineText from "../ui/hover-underline-text";
 import { IconArrowRight } from "@tabler/icons-react";
 
-type Props = {};
-
-function Projects({}: Props) {
+function Projects() {
   return (
     <div
       id="projects"

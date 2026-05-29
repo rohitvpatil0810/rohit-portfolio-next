@@ -4,9 +4,7 @@ import React, { useState } from "react";
 import Navbar from "./navbar";
 import ProjectList from "./projects-list";
 
-type Props = {};
-
-const Projects = (props: Props) => {
+const Projects = () => {
   const technologies = projectsList
     .map((project) => project.technologies)
     .flat();
