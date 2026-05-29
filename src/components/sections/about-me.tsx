@@ -4,9 +4,8 @@ import SectionHeader from "../ui/section-header";
 import SocialIcon from "../ui/social-icon";
 import { socialLinks } from "@/lib/social-links";
 import aboutMe from "@/lib/about-me";
-type Props = {};
 
-function AboutMe({}: Props) {
+function AboutMe() {
   return (
     <div
       id="about-me"

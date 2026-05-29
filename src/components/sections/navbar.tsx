@@ -5,11 +5,10 @@ import GlassMorph from "../ui/glass-morph";
 import NavbarLink from "../ui/navbar-link";
 import { useEffect, useState } from "react";
 import aboutMe from "@/lib/about-me";
-import { IconMenu2, IconMenuDeep, IconX } from "@tabler/icons-react";
+import { IconMenuDeep, IconX } from "@tabler/icons-react";
 import { cn } from "@/lib/utils";
-type Props = {};
 
-function Navbar({}: Props) {
+function Navbar() {
   const [activeSection, setActiveSection] = useState("about-me");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -22,7 +21,7 @@ function Navbar({}: Props) {
   };
 
   useEffect(() => {
-    let sections = navLinks.map((link) => document.getElementById(link.href));
+    const sections = navLinks.map((link) => document.getElementById(link.href));
 
     const observerOptions = {
       root: null,
@@ -39,12 +38,16 @@ function Navbar({}: Props) {
     }, observerOptions);
 
     sections.forEach((section) => {
-      section && observer.observe(section);
+      if (section) {
+        observer.observe(section);
+      }
     });
 
     return () => {
       sections.forEach((section) => {
-        section && observer.unobserve(section);
+        if (section) {
+          observer.unobserve(section);
+        }
       });
     };
   }, []);
@@ -61,13 +64,13 @@ function Navbar({}: Props) {
           {
             "flex-col h-full": isMenuOpen,
             "flex-row": !isMenuOpen,
-          }
+          },
         )}
       >
         {/* Name and close button */}
         <div
           className={cn(
-            "flex tab:flex-none w-full tab:w-fit justify-between items-center"
+            "flex tab:flex-none w-full tab:w-fit justify-between items-center",
           )}
         >
           <button onClick={scrollToTop}>

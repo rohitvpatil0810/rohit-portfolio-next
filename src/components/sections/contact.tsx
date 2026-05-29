@@ -5,9 +5,7 @@ import ContactForm from "../ui/contact-form";
 import { socialLinks } from "@/lib/social-links";
 import SocialIcon from "../ui/social-icon";
 
-type Props = {};
-
-function Contact({}: Props) {
+function Contact() {
   return (
     <div
       id="contact"

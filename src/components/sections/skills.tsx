@@ -2,9 +2,7 @@ import { skillsList } from "@/lib/skills-list";
 import SectionHeader from "../ui/section-header";
 import SkillIcon from "../ui/skill-icon";
 
-type Props = {};
-
-function Skills({}: Props) {
+function Skills() {
   return (
     <div
       id="skills"

@@ -6,15 +6,13 @@ import sendEmailNotification from "@/app/api/_actions";
 import toast, { Toaster } from "react-hot-toast";
 import { PulseLoader } from "react-spinners";
 
-type Props = {};
-
 export interface IFormInput {
   name: string;
   email: string;
   message: string;
 }
 
-const ContactForm = (props: Props) => {
+const ContactForm = () => {
   const {
     register,
     handleSubmit,

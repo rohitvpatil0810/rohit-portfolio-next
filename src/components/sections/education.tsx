@@ -3,9 +3,7 @@ import SectionHeader from "../ui/section-header";
 import educationList from "@/lib/education-list";
 import EducationItem from "../ui/education-item";
 
-type Props = {};
-
-function Education({}: Props) {
+function Education() {
   return (
     <div
       id="education"
