@@ -9,6 +9,14 @@ export interface Project {
 
 export const projectsList: Project[] = [
   {
+    cover_image: "/projects-cover/tunnelway.png",
+    name: "TunnelWay",
+    description:
+      "A reverse HTTP tunneling system built in Go that exposes local services through a public server using persistent WebSocket connections. Implements a custom binary framing protocol with request IDs for multiplexing concurrent requests, streaming request/response bodies in chunks. Uses io.Pipe for streaming, a bounded worker pool for concurrent request processing, and dedicated WebSocket write loops for thread-safe frame delivery. Includes heartbeat, automatic reconnection with exponential backoff, and tunnel session recovery.",
+    github_link: "https://github.com/rohitvpatil0810/tunnelway-server",
+    technologies: ["Go", "WebSocket", "HTTP", "Concurrency", "Binary Protocol"],
+  },
+  {
     cover_image: "/projects-cover/compress-sync.png",
     name: "CompressSync",
     description:
