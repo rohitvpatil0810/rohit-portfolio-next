@@ -41,6 +41,8 @@
     "postcss": "^8.5.10",
     "postcss-selector-parser": "^7.1.7",
     "@types/react": "19.2.15",
-    "@types/react-dom": "19.2.3"
+    "@types/react-dom": "19.2.3",
+    "follow-redirects": "^1.16.3",
+    "minimatch@>=7.0.0": "^11.0.9"
   }
 }
